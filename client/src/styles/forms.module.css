@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: poppins;
+  color: #676e8b;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav img {
+width:100px;
+}
+.nav {
+  padding:5px;
+  display: flex;
+  margin-top: 45px;
+  align-items: center;
+  justify-content: center;
+}
+.hide_content {
+  display: none;
+}
+
+
+
+
+
+
+
+.sign_up {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.sign_up h1 {
+  font-weight: 500;
+  color: #1a1a1d;
+}
+
+.sign_up a {
+  text-decoration: underline;
+  color: #0051ff;
+}
+
+.sm_ps {
+  margin: 10px;
+  color: #9C9C9D;
+  font-size: .7rem;
+  text-align: left;
+}
+.sign_up .md_ps {
+  margin-bottom: 20px;
+  color: #4b4b52;
+  font-size: .85rem;
+  text-align: right;
+  font-weight: 500;
+}
+.sign_up .md_ps:nth-child(5) {
+  margin-bottom: 20px;
+  color: #4b4b52;
+  font-size: .85rem;
+  text-align: center;
+  font-weight: 500;
+}
+.sign_up .red_ps {
+  color: #f12b2b;
+  font-weight: 500;
+  font-size: .78rem;
+  text-align: center;
+}
+.greenOutput {
+ background-color:#a0f0bf ; 
+ color:#206a3c ;
+ border: 2px solid #206a3c; 
+ border-radius: .3rem;
+ margin: 0 10px;
+}
+.greenOutput p {
+  padding: .7rem;
+}
+.auth_methods {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.sign_up .google {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d8d8d89a;
+  padding: 15px 50px;
+  border-radius: 10px;
+  color: #383838;
+  margin-right: 15px;
+  transition: all .2s ease-in-out;
+
+  
+}
+
+.sign_up .google img {
+  width: 30px;
+  margin-right: 10px;
+}
+.sign_up .facebook img {
+  width: 30px;
+}
+
+.sign_up .facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border: 2px solid #1278f3;
+  border-radius: 10px;
+  color: #1278f3;
+  padding: 14px 20px;
+  margin: 20px 5px;
+  transition: all .2s ease-in-out;
+
+}
+
+.facebook:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.google:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.sign_up h3 hr{
+  background-color: #d3d3d3;
+  border: .3 solid #d3d3d3;
+
+  margin: 5px;
+}
+.or_methods {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.or_methods_div {
+  background-color: #d3d3d3;
+  width: 45%;
+  height: 2px;
+
+}
+.sign_up h3 {
+ font-weight: 400;
+ color: #383838;
+ font-size: .9rem;
+ margin: 0 5px;
+}
+
+.sign_up .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #d3d3d3;
+}
+
+.sign_up .form input {
+  margin: 10px;
+  outline: none;
+  padding: 12px;
+  -webkit-box-shadow: 0px 0px 1px #d3d3d3;
+          box-shadow: 0px 0px 1px #d3d3d3;
+  border: 2px solid #ebebeb;
+  background-color: #f9f9f9;
+  border-radius: .3em;
+}
+
+.sign_up .form input:focus {
+  border: 2px solid #5340ff;
+}
+
+.sign_up .form .btn_container {
+  position: relative;
+}
+
+.testing {
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+.sign_up .form .btn_container .loading_btn {
+  position: absolute;
+  top: 32%;
+  right: 48%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-animation: loading-btn .4s ease-in-out 0s infinite;
+          animation: loading-btn .4s ease-in-out 0s infinite;
+}
+.sign_up .form .btn_container .loading_btn3 {
+  position: absolute;
+  top: 59%;
+  right: 48%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-animation: loading-btn .4s ease-in-out 0s infinite;
+          animation: loading-btn .4s ease-in-out 0s infinite;
+}
+.sign_up .form .btn_container .loading_btn4 {
+  position: absolute;
+  top: 59%;
+  right: 48%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffffff6c;
+}
+.sign_up .form .btn_container .loading_btn2 {
+  position: absolute;
+  top: 32%;
+  right: 48%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffffff6c;
+}
+
+.sign_up .form button {
+  background: #5340ff;
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 4px;
+  line-height: 18px;
+  padding: 15px 24px;
+  width: 96%;
+  margin: 5px auto;
+  transition: background-color .2s ease-in-out;
+
+}
+.sign_up .form button:hover,
+.sign_up .form button:focus{
+  background-color: #1800f3;
+  cursor: pointer;
+}
+.sign_up .form .button_hide {
+  color:#5340ff00;
+}
+
+.sign_up .form .red_input {
+  background-color: #ffc2c2;
+  -webkit-box-shadow: 0px 0px 2px #ff5454;
+  box-shadow: 0px 0px 2px #ff5454;
+  border: 1px solid #ff5454;
+  -webkit-animation: redInput .1s ease-in-out 0s 3;
+          animation: redInput .1s ease-in-out 0s 3;
+  position: relative;
+}
+
+.sign_up .form .red_input:focus {
+  border: 2px solid #ff1414;
+}
+
+@media (max-width: 30em) {
+ .sign_up .google {
+    padding: 15px 25px;
+    margin-right: 5px;
+
+  }
+
+}
+@-webkit-keyframes loading-btn {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  30% {
+    -webkit-transform: rotate(108deg);
+            transform: rotate(108deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: rotate(288deg);
+            transform: rotate(288deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-btn {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  30% {
+    -webkit-transform: rotate(108deg);
+            transform: rotate(108deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: rotate(288deg);
+            transform: rotate(288deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes redInput {
+  0% {
+    right: 0px;
+  }
+  20% {
+    right: 20px;
+  }
+  40% {
+    right: -20px;
+  }
+  80% {
+    right: -10px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
