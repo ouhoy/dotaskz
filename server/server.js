@@ -19,7 +19,6 @@ const auth = require("./controllers/auth");
 require("dotenv").config(); 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
- 
 mongoose.connect(`${process.env.MDB_CONNECT}/montdls-lg-rg`, { useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true } , (err)=>{
     if (err) return console.error(err);
     console.log("Connected to MongoDB successfully")
