@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function HomePage(){
     return <div>
 
-    <header>
+    <header>  
         <nav>
             <div className={styles.logo}>
                 <img src="./images/check-p.png" alt="dotaskz" />
@@ -67,37 +67,38 @@ function HomePage(){
 
   
     <div className={styles.take_action}>
-        <h1>Get Things Done!</h1>
+        <h4>Get Things Done!</h4>
         <Link to="/signup" className={styles.btn_register}>Get Dotaskz</Link>
     </div>
     <div className={styles.n3_container}>
-    <h2>You like my project and you want to contribute? or you're just curies about how it was built?<br></br>
-    <Link className={styles.source_code}>See the source code</Link>
-    </h2>
-
+    <h4>
+    We won't steal your data just trust us!
+    </h4>
 </div>
     </main>
     <footer>
         <div className={styles.footer}>
-        <div className={styles.footer_logo}>
-        <h2>Logo Stuff</h2>
-
-        </div>
+        <img src="./images/check-p.png" alt="dotaskz" className={styles.footer_logo} />
         <div className={styles.footer_links}>
-        <h2>Legal Stuff</h2>
-        <Link to="/signin" className={styles.btn_login}>About</Link>
-        <Link to="/signin" className={styles.btn_login}>Privacy</Link>
-        <Link to="/signin" className={styles.btn_login}>User agreement</Link>
-        <Link to="/signin" className={styles.btn_login}>Social</Link>
+        <div className={styles.footer_links_group}>
+        <Link to="/signin" >About</Link>
+        <Link to="/signin" >Contact</Link>
+        <Link to="/signin" >Help</Link>
         </div>
-        <div className={styles.social}>
-        <h2>Social Stuff</h2>
-        <Link to="/signin" className={styles.btn_login}>Instagram</Link>
-        <Link to="/signin" className={styles.btn_login}>Git Hub</Link>
-        <Link to="/signin" className={styles.btn_login}>Facebook</Link>
-        <Link to="/signin" className={styles.btn_login}>Twitter</Link>
-        <Link to="/signin" className={styles.btn_login}>YouTube</Link>
+        <div className={styles.footer_links_group}>
+        <Link to="/signin" >Cookie policy</Link>
+        <Link to="/signin" >Privacy policy</Link>
+        <Link to="/signin" >Terms of use</Link>
+        </div>
+        </div>
+        <div className={styles.footer_line}></div>
+        <div className={styles.footer_bottom}>
+            <div>
 
+            </div>
+            <p>
+            © 2021 Dotaskz, All Rights Reserved.
+            </p>
         </div>
         </div>
     </footer>

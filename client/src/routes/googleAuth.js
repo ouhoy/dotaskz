@@ -9,11 +9,11 @@ function Google() {
 
     function responseGoogle(res) {
         const googleData = {
-          name: res.profileObj.name,
-          imageUrl: res.profileObj.imageUrl,
-          tokenId: res.tokenId 
+         // name: res.profileObj.name,
+         // imageUrl: res.profileObj.imageUrl,
+         // tokenId: res.tokenId 
         };
-        console.log(googleData)
+        console.log(res)
 
         
     }
